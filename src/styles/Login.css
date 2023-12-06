@@ -1,0 +1,80 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url('../images/fondo.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Esto centra verticalmente el contenido */
+}
+
+.login-container {
+  text-align: center;
+  padding: 50px;
+  background-color: rgba(52, 152, 219, 0.8); /* Color azul llamativo con opacidad */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.exercise-logo {
+  width: 100px;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #fff; /* Color de texto blanco */
+}
+
+/* Resto de estilos... */
+
+.login-container {
+  max-width: 300px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.exercise-icon {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 6px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+p {
+  margin-top: 16px;
+}
