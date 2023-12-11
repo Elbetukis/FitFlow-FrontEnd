@@ -1,0 +1,92 @@
+.menu {
+  display: flex;
+  justify-content: space-between; /* Alinea los elementos a los extremos */
+  padding: 10px;
+  background-color: #3498db; /* Cambia el color de fondo */
+}
+
+.menu-logo {
+  width: 40px; /* Ajusta el ancho del logo según tus necesidades */
+}
+
+.menu-item {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.menu-item:hover {
+  color: #ddd;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: url('../images/fondo.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Ajustado a min-height para asegurar que el fondo abarque todo el alto de la pantalla */
+}
+.community-container {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(52, 152, 219, 0.8);
+  border-radius: 0px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+}
+
+.text-primary-emphasis {
+  font-size: 1.5em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.search-bar {
+  margin-top: 20px;
+}
+
+.search-bar input {
+  padding: 8px;
+  margin-right: 8px;
+}
+
+.community-post {
+  margin-top: 20px;
+}
+
+.post-author {
+  margin-top: 10px;
+  color: #fff;
+}
+
+.comment {
+  margin-top: 10px;
+}
+
+.comment-author {
+  color: #fff;
+}
+
+.comment-text {
+  margin-top: 5px;
+}
+
+.add-comment {
+  margin-top: 20px;
+}
+
+.add-comment textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.btn {
+  margin-top: 20px;
+}
